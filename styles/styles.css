@@ -18,9 +18,10 @@
   --light-color: #eee;
   --dark-color: #ccc;
   --text-color: black;
+  --navbar-color: #3b3633;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: "Open Sans", sans-serif;;
   --heading-font-family: var(--body-font-family);
   --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
 
@@ -38,7 +39,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 60px;
 }
 
 @font-face {
@@ -110,6 +111,16 @@ code {
 
 pre {
   overflow: scroll;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 main pre {
