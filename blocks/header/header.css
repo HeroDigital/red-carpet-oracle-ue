@@ -339,7 +339,7 @@ header nav .nav-sections > div > ul > li {
     position: absolute;
     left: 2em;
     right: 2em;
-    top: 64px;
+    top: 54px;
     padding: 2em 2em 0;
     background-color: var(--navbar-color);
     white-space: initial;
@@ -503,14 +503,21 @@ header nav .nav-sections > div > ul > li {
 
   header nav .default-content-wrapper ul li .section-heading {
     margin: 0;
-    text-decoration: none;
     word-break: normal;
-    font-family: "Cabin", sans-serif;
-    font-size: 12px;
-    line-height: 18px;
-    text-transform: uppercase;
+    font-family: var(--body-font-family);
+    text-transform: capitalize;
     font-weight: 500;
     color: white;
+    line-height: 1.3;
+    transform: translate(0, 0);
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 100ms ease-in;
+  }
+
+  header nav .default-content-wrapper ul li .section-heading:focus,
+  header nav .default-content-wrapper ul li .section-heading:active {
+    border-bottom: 1px solid white;
   }
 
   .section-heading,
@@ -518,7 +525,7 @@ header nav .nav-sections > div > ul > li {
     margin: 0;
     text-decoration: none;
     word-break: normal;
-    font-family: "Cabin", sans-serif;
+    font-family: var(--body-font-family);
     font-size: 12px;
     line-height: 18px;
     text-transform: uppercase;

@@ -137,12 +137,6 @@ export default async function decorate(block) {
       .forEach((navSection) => {
         if (navSection.querySelector("ul")) {
           navSection.classList.add("nav-drop");
-          // Wrap the <ul> inside a <div>
-          // const ulElement = navSection.querySelector("ul");
-          // const divElement = document.createElement("div");
-          // divElement.className = "submenu-wrapper";
-          // ulElement.parentNode.insertBefore(divElement, ulElement);
-          // divElement.appendChild(ulElement);
         }
         if (navSection.classList.contains("nav-drop")) {
           const sectionText = navSection.childNodes[0];
