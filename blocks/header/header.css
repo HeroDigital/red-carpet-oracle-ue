@@ -375,7 +375,7 @@ header nav .nav-sections > div > ul > li {
   }
 
   header nav .nav-tools {
-    margin: 0 30px;
+    margin: 0 30px 8px 30px;
   }
 
   header nav[aria-expanded="true"] {
@@ -391,7 +391,7 @@ header nav .nav-sections > div > ul > li {
       min-width: 44px;
       border: none;
       padding: 0 20px 0 0;
-      background-color: #161513;
+      background-color: var(--slider-text-color);
       border-radius: 4px;
       font-weight: bold;
       transition: background-color .2s ease;
@@ -419,7 +419,7 @@ header nav .nav-sections > div > ul > li {
       min-width: 44px;
       border: none;
       padding: 0 20px 0 0;
-      background-color: #161513;
+      background-color: var(--slider-text-color);
       border-radius: 4px;
       font-weight: bold;
       transition: background-color .2s ease;
@@ -561,6 +561,12 @@ header nav .nav-sections > div > ul > li {
 
   header nav .nav-sections > div > ul > li {
     position: static;
+  }
+}
+
+@media (width >= 1281px) {
+  header nav .nav-tools {
+    margin: 0 30px;
   }
 }
 
