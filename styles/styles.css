@@ -20,6 +20,8 @@
   --text-color: black;
   --navbar-color: #3b3633;
   --slider-text-color: #161513;
+  --panels-text-color: #fbf9f8;
+  --panels-list-link-color: #f0cc71;
 
   /* fonts */
   --body-font-family: "Open Sans", sans-serif;;
@@ -30,6 +32,7 @@
   --body-font-size-m: 22px;
   --body-font-size-s: 18px;
   --body-font-size-xs: 16px;
+  --body-font-size-xxs: 14px;
 
   /* heading sizes */
   --heading-font-size-xxl: 48px;
@@ -195,6 +198,12 @@ main img {
 .icon img {
   height: 100%;
   width: 100%;
+}
+
+.lg-only {
+  @media (width <= 900px) {
+    display: none;
+  }
 }
 
 /* sections */
