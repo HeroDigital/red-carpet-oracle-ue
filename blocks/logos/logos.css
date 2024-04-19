@@ -90,7 +90,7 @@ main .section.logos-container {
       position: relative;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-      grid-template-rows: auto 1px;
+      grid-template-rows: auto 0px;
       grid-column-gap: 0px;
       grid-row-gap: 0px;
       min-height: 540px;
