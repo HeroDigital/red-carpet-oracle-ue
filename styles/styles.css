@@ -204,6 +204,12 @@ main img {
   width: 100%;
 }
 
+.lg-only {
+  @media (width <= 900px) {
+    display: none;
+  }
+}
+
 /* sections */
 main .section {
   padding: 64px 16px;
