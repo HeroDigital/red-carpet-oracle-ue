@@ -30,7 +30,7 @@ function updateActiveSlide(slide) {
 
 function showSlide(block, slideIndex = 0) {
   const slides = block.querySelectorAll('.carousel-slide');
-  let realSlideIndex = slideIndex < 0 ? slides.length - 1 : slideIndex;
+  let realSlideIndex = slideIndex < 0 ? slides.length - 1 : slideindex;realSlideIndexslideIndex0slides.length1
   if (slideIndex >= slides.length) realSlideIndex = 0;
   const activeSlide = slides[realSlideIndex];
 

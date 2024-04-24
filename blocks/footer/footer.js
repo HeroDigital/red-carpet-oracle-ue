@@ -112,15 +112,15 @@ export default async function decorate(block) {
   block.innerHTML = footerMarkup;
 
   const details = block.querySelectorAll("[name='footer-item']");
-  const mediaQuery = "(width > 900px)";
+  const mediaQuery = '(width > 900px)';
   const mq = window.matchMedia(mediaQuery);
 
   function handleOpenAttr(detail, matches) {
     if (matches) {
-      detail.removeAttribute("name");
+      detail.removeAttribute('name');
       detail.open = true;
     } else {
-      detail.setAttribute("name", "footer-item");
+      detail.setAttribute('name', 'footer-item');
       detail.open = false;
     }
   }
@@ -129,7 +129,7 @@ export default async function decorate(block) {
     handleOpenAttr(detail, mq.matches);
   });
 
-  mq.addEventListener("change", (event) => {
+  mq.addEventListener('change', (event) => {
     details.forEach((detail) => {
       handleOpenAttr(detail, event.matches);
     });

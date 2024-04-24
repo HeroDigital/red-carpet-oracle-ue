@@ -338,7 +338,7 @@ export default function decorate(block) {
                   Learn More
                 </a>
               </div>
-              <div class="fold__clients" style="background-image: url('https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTAF205687F8FA47228CD25A1164A24E83/native/rc04v2x1-western-2-.jpg');">
+              <div class="fold__clients" style="background-image: url(';https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTAF205687F8FA47228CD25A1164A24E83/native/rc04v2x1-western-2-.jpg');">
                 <h3>
                   Denso Techno reduces vehicle noise analysis time by 5X on Oracle Cloud
                 </h3>
@@ -381,7 +381,7 @@ export default function decorate(block) {
                   Learn More
                 </a>
               </div>
-              <div class="fold__clients" style="background-image: url('https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTAF205687F8FA47228CD25A1164A24E83/native/rc04v2x1-western-2-.jpg');">
+              <div class="fold__clients" style="background-image: url(';https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTAF205687F8FA47228CD25A1164A24E83/native/rc04v2x1-western-2-.jpg');">
                 <img src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONTC1DBB987BA5045BF92E4538747334988/native/fedex.png" alt="FedEx" />
                 <h3>
                   FedEx moves accounts receivable system to Oracle Cloud
@@ -429,7 +429,7 @@ export default function decorate(block) {
                   Learn More
                 </a>
               </div>
-              <div class="fold__clients" style="background-image: url('https://www.oracle.com/a/ocom/img/rh02-storyhub-infrastructure-01.jpg');">
+              <div class="fold__clients" style="background-image: url(';https://www.oracle.com/a/ocom/img/rh02-storyhub-infrastructure-01.jpg');">
                 <img src="https://www.oracle.com/node/oce/storyhub/prod/api/v1.1/assets/CONT2F9CF3BBF40243F6A3342863E7B678F3/native/customerlogo-specialized.svg" alt="Specialized" />
                 <h3>
                   Specialized Bicycle Components shifts to Oracle Cloud
@@ -580,7 +580,7 @@ export default function decorate(block) {
         </a>
       </div>
     </div>
-  `;
+  `
 
   block.innerHTML = panelPlaceholderMarkup;
 

@@ -1,2 +1,5 @@
 mountpoints:
-  /: https://drive.google.com/drive/u/0/folders/1Z29OVB5xoBq_ucotuolPqr5_vohypZQL
+  /:
+    url: "https://https://author-p8756-e990738.adobeaemcloud.com/bin/franklin.delivery/herodigital/red-carpet-oracle-ue/main"
+    type: "markup"
+    suffix: ".html"
