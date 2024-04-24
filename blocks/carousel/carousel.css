@@ -209,7 +209,6 @@ main .section.carousel-container {
     picture {
       display: block;
       height: calc(63.5245901639vw - 0.6885245902px);
-
       img {
         height: calc(63.5245901639vw - 0.6885245902px);
       }
@@ -231,7 +230,7 @@ main .section.carousel-container {
       max-width: calc(50% - 34px);
       width: fit-content;
       display: inline-block;
-      margin: 0 0 32px;
+      margin: 0 0 32px 0;
 
       a {
         margin: 0;
@@ -275,7 +274,7 @@ main .section.carousel-container {
       font-size: calc(1.6393442623vw + 18.0983606557px);
       line-height: calc(3.2786885246vw + 16.1967213115px);
       font-weight: 400;
-      font-family: Georgia, Times, Garamond, serif;
+      font-family: 'Georgia', 'Times', 'Garamond', serif;
     }
 
     h2::after {
@@ -349,7 +348,7 @@ main .section.carousel-container {
 
         h2 {
           margin: 0;
-          padding: 30px 0 0;
+          padding: 30px 0 0 0;
           font-size: 28px;
           line-height: 36.4px;
         }
@@ -409,7 +408,7 @@ main .section.carousel-container {
 @media (width >= 992px) {
   main .section.carousel-container::before {
     content: '';
-    background: url("https://www.oracle.com/asset/web/i/rh08-bottom-bg.png") no-repeat bottom left;
+    background: url(https://www.oracle.com/asset/web/i/rh08-bottom-bg.png) no-repeat bottom left;
     background-size: 100% 374px;
     width: 100%;
     height: 374px;
@@ -419,7 +418,7 @@ main .section.carousel-container {
 
   main .section.carousel-container::after {
     content: '';
-    background: url("https://www.oracle.com/asset/web/i/rh08-top-bg.png") no-repeat top left;
+    background: url(https://www.oracle.com/asset/web/i/rh08-top-bg.png) no-repeat top left;
     background-size: 88% 374px;
     width: 100%;
     height: 374px;

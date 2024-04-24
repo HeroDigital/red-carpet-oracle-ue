@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   grid-gap: 16px;
 }
 
@@ -28,7 +28,7 @@
 /* First Cards Component */
 
 main .section.cards-container {
-  padding: 24px 24px 48px;
+  padding: 24px 24px 48px 24px;
   background-color: #fbf9f8;
   position: relative;
 
@@ -43,7 +43,7 @@ main .section.cards-container {
         line-height: 28px;
         font-weight: 800;
         font-family: var(--body-font-family);
-        margin: 24px 0 8px;
+        margin: 24px 0 8px 0;
       }
 
       p:first-of-type {
@@ -90,7 +90,8 @@ main .section.cards-container {
       display: grid;
       grid-template-columns: repeat(2, auto);
       grid-template-rows: repeat(3, auto);
-      grid-gap: 0 20px;
+      grid-column-gap: 20px;
+      grid-row-gap: 0px;
 
       h4 {
         grid-area: 1 / 1 / 2 / 3;
@@ -114,7 +115,8 @@ main .section.cards-container {
       display: grid;
       grid-template-columns: repeat(2, auto);
       grid-template-rows: repeat(3, auto);
-      grid-gap: 0 20px;
+      grid-column-gap: 20px;
+      grid-row-gap: 0px;
       align-items: center;
 
       h4 {
@@ -143,7 +145,8 @@ main .section.cards-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr;
-      grid-gap: 0 24px;
+      grid-column-gap: 24px;
+      grid-row-gap: 0px;
     }
 
     .cards-wrapper {
@@ -158,7 +161,7 @@ main .section.cards-container {
       grid-column-gap: unset;
       grid-row-gap: unset;
       align-items: flex-start;
-      margin: 32.25px 32.25px 0;
+      margin: 32.25px 32.25px 0 32.25px;
 
       h4 {
         margin-top: 0;
@@ -193,11 +196,14 @@ main .section.cards-container::before {
   content: '';
   mix-blend-mode: initial;
   filter: opacity(0.08);
-  background-image: url("/images/rw-pattern9.png");
+  background-image: url(/images/rw-pattern9.png);
   background-size: 250px 250px !important;
   opacity: 1;
   position: absolute;
-  inset: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: 0;
   background-repeat: repeat;
 }
