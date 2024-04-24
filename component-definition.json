@@ -2,7 +2,7 @@
   "groups": [
     {
       "title": "Default Content",
-      "id": "default";,
+      "id": "default",
       "components": [
         {
           "title": "Text",
@@ -138,5 +138,5 @@
         }
       ]
     }
-  
+  ]
 }
